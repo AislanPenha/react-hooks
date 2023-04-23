@@ -1,0 +1,28 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    background: #eee;
+    padding: 30px;
+}
+
+.post{
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.308);
+    transition: transform 120ms ease-in-out;
+}
+.post:hover{
+
+    transform: scale(1.02);
+}
+
+.post-content{
+    padding: 10px;
+}
+
+.post img{
+    width: 100%;
+}
+
+.posts{
+    padding:30px;
+}
